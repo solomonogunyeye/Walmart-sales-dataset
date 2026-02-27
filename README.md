@@ -16,25 +16,25 @@ This project involves an in-depth analysis of a Walmart sales dataset of the sta
 | product rating | numeric | numeric| satisfaction level.|
 | profit margin| numeric | numeric | profit on each sale.|
 
-DATASET SIZE: 10,O51 rows, 11 columns
-TIME PERIOD COVERED: January 2019 - December 2019
+DATASET SIZE: 10,O51 rows, 11 columns.
+TIME PERIOD COVERED: January 2019 - December 2019.
 
-#Objectives
+# Objectives
 1. Identify customer satisfaction accross categories.
 2. Analyze category revenue, volatility and performance.
 3. Identify percentage contribution to revenue of each category.
 4. Identify profit generation with each City.
 
-#Data cleaning and reprocessing
+# Data cleaning and reprocessing
 1. Removed 1000+ duplicates.
 2. All missing values were replaced with "TBA"
 3. Confirmed all dates standard to TDD/MM/YYYY.
 
 
 # Exploratory Data Analysis
-. Total revenue: $1,214,825.38
+  Total revenue: $1,214,825.38
 
-#  Category Performance
+# Category Performance
 | Category       | Total Revenue | Average Revenue | Revenue StdDev | Avg Quantity |
 |----------------|---------------|----------------|-----------------|-------------|
 | Fashion accessories   | $491,833.90    | $107.76       |  $83.591                | 2.13       |
