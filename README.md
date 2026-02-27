@@ -16,7 +16,7 @@ This project involves an in-depth analysis of a Walmart sales dataset of the sta
 | product rating | numeric | numeric| satisfaction level.|
 | profit margin| numeric | numeric | profit on each sale.|
 
-DATASET SIZE: 10,O51 rows, 11 columns.
+DATASET SIZE: 10,051 rows, 11 columns.
 TIME PERIOD COVERED: January 2019 - December 2019.
 
 # Objectives
