@@ -1,1 +1,2 @@
 # Walmart-sales-dataset
+This project involves an in-depth analysis of a hypothetical Walmart sales dataset sourced from Kaggle. The dataset contains transactional-level information spanning multiple stores, product categories, and time periods. The primary goal is to uncover insights into sales trends, volatility, and category performance to guide strategic decision-making for inventory, pricing, and marketing.
