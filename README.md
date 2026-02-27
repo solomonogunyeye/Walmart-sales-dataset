@@ -30,9 +30,6 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 2. All missing values were replaced with "TBA"
 3. Confirmed all dates standard to DD/MM/YYYY.
    
-   NOTE: 1. Data was saved into postgreSQL as text to accomodate missing data being filled with "TBA".
-         2. Numeric calculations are performed by temporarily casting text fields to numeric types using PostgreSQL ::numeric or ::integer functions.
-
 # Exploratory Data Analysis
   Total revenue: $1,214,825.38
 
@@ -64,8 +61,11 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 1. Electronics category is high-revenue but high-volatility; requires dynamic inventory strategies.
 2. Groceries are steady and predictable; ideal for optimizing stock levels to reduce waste.
 3. Credit cards dominate high-value transactions; targeted promotions could increase digital wallet adoption.
-4. Average transaction value variance suggests promotions and discounts significantly influence purchase behavior.
+4. Customer loyalty data should be incorporated for targeted marketing.
+5. Average transaction value variance suggests promotions and discounts significantly influence purchase behavior.
 
 # Key Notes
 1. Missing values may influence validity of Analysis in Practice.
-2. Customer loyalty data should be incorporated for targeted marketing.
+2. Data was saved into postgreSQL as text to accomodate missing data being filled with "TBA".
+3. Numeric calculations are performed by temporarily casting text fields to numeric types using PostgreSQL ::numeric or ::integer functions.
+
