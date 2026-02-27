@@ -30,7 +30,7 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 2. All missing values were replaced with "TBA"
 3. Confirmed all dates standard to DD/MM/YYYY.
    
-   note: 1. data was saved into postgreSQL as text to accomodate miising data being filled with "TBA"
+   NOTE: 1. data was saved into postgreSQL as text to accomodate miising data being filled with "TBA"
          2. To accomodate for numerical value being saved as text in postgreSQL, values are temporarily transformed into numerical values with the function " ::numeric " or " ::integer " when performing calculations.
 
 
@@ -50,7 +50,7 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 # Insights
 1. Electronics shows highest revenue volatility, likely due to price disparity between products.
 2. Groceries, beauty products and sports products have consistent sales but smaller margins per unit.
-   Note: the standard deviation is plotted against the average revenue, not to be mistaken with the Total revenue.
+   NOTE: the standard deviation is plotted against the average revenue, not to be mistaken with the Total revenue.
 
 
 # Payment method analysis
