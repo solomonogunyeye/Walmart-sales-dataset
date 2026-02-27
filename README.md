@@ -20,7 +20,7 @@ DATASET SIZE: 10,051 rows, 11 columns.
 TIME PERIOD COVERED: January 2019 - December 2019.
 
 # Objectives
-1. Identify customer satisfaction accross categories.
+1. Identify customer satisfaction across categories.
 2. Analyze category revenue, volatility and performance.
 3. Identify percentage contribution to revenue of each category.
 4. Identify profit generation with each City.
@@ -30,9 +30,8 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 2. All missing values were replaced with "TBA"
 3. Confirmed all dates standard to DD/MM/YYYY.
    
-   NOTE: 1. data was saved into postgreSQL as text to accomodate miising data being filled with "TBA"
-         2. To accomodate for numerical value being saved as text in postgreSQL, values are temporarily transformed into numerical values with the function " ::numeric " or " ::integer " when performing calculations.
-
+   NOTE: 1. data was saved into postgreSQL as text to accomodate missing data being filled with "TBA"
+         2. Numeric calculations are performed by temporarily casting text fields to numeric types using PostgreSQL ::numeric or ::integer functions.
 
 # Exploratory Data Analysis
   Total revenue: $1,214,825.38
@@ -43,7 +42,7 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 | Fashion accessories   | $491,833.90    | $107.76       |  $83.591                | 2.13       |
 |Electronic accessories     | $78,175.03  | $186.25      |  $184.510                | 3.57        |
 | Health and beauty | $46,851.18   | $308.23         |    $226.227              | 5.62       |
-| food and beverages       | $53,471.28  | $307.31     |  $235.548                 | 5.47       |
+| Food and beverages       | $53,471.28  | $307.31     |  $235.548                 | 5.47       |
 |Sports and travel| $52,497.93 |  $316.25   |    $236.548                |  5.54            |
 | Home and Lifestyle| $ 491,996.06|  $108.25     |  $85.263                |   2.13            |
 
