@@ -55,7 +55,7 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 3. Cash with a 22.09% use case has an average transaction value of $142.77.
 
 # City Revenue Analysis
-1. Within 99 cities, the ten highest revenue earners per city make up 20% of total revenue.
+1. Within 99 cities, the ten highest revenue earners make up 20% of total revenue.
 
 # Key Findings
 1. Electronics category is high-revenue but high-volatility; requires dynamic inventory strategies.
