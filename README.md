@@ -31,7 +31,7 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 3. Confirmed all dates standard to DD/MM/YYYY.
    
    NOTE: 1. data was saved into postgreSQL as text to accomodate missing data being filled with "TBA"
-   2. Numeric calculations are performed by temporarily casting text fields to numeric types using PostgreSQL ::numeric or ::integer functions.
+          2. Numeric calculations are performed by temporarily casting text fields to numeric types using PostgreSQL ::numeric or ::integer functions.
 
 # Exploratory Data Analysis
   Total revenue: $1,214,825.38
