@@ -29,8 +29,9 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 1. Removed 1000+ duplicates.
 2. All missing values were replaced with "TBA"
 3. Confirmed all dates standard to DD/MM/YYYY.
+   
    note: 1. data was saved into postgreSQL as text to accomodate miising data being filled with "TBA"
-         2. To accomodate for numerical value being saved as text in postgreSQL, values are temporarily transformed into numerical values with the function "::numeric" or "::integer" when performing calcumations.
+         2. To accomodate for numerical value being saved as text in postgreSQL, values are temporarily transformed into numerical values with the function " ::numeric " or " ::integer " when performing calculations.
 
 
 # Exploratory Data Analysis
