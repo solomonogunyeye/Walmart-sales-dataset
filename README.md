@@ -28,7 +28,7 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 # Data cleaning and reprocessing
 1. Removed 1000+ duplicates.
 2. All missing values were replaced with "TBA"
-3. Confirmed all dates standard to TDD/MM/YYYY.
+3. Confirmed all dates standard to DD/MM/YYYY.
 
 
 # Exploratory Data Analysis
@@ -44,4 +44,26 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 |Sports and travel| $52,497.93 |  $316.25   |    $236.548                |  5.54            |
 | Home and Lifestyle| $ 491,996.06|  $108.25     |  $85.263                |   2.13            |
 
+# Insights
+1. Electronics shows highest revenue volatility, likely due to price disparity between products.
+2. Groceries, beauty products and sports products have consistent sales but smaller margins per unit.
+   Note: the standard deviation is plotted against the average revenue, not to be mistaken with the Total revenue.
 
+
+# Payment method analysis
+1. Credit card with a 40.26% use case has an average transaction value of $114.84.
+2. Ewallet with a 37.64% use case has an average transaction value of $117.83.
+3. Cash with a 22.09% use case has an average transaction value of $142.77.
+
+# City Revenue Analysis
+1. Within 99 cities, the ten highest revenue earners per city make up 20% of total revenue.
+
+# Key Findings
+1. Electronics category is high-revenue but high-volatility; requires dynamic inventory strategies.
+2. Groceries are steady and predictable; ideal for optimizing stock levels to reduce waste.
+3. Credit cards dominate high-value transactions; targeted promotions could increase digital wallet adoption.
+4. Average transaction value variance suggests promotions and discounts significantly influence purchase behavior.
+
+# Key Notes
+1. Missing values may influence validity of Analysis in Practice.
+2. Customer loyalty data should be incorporated for targeted marketing.
