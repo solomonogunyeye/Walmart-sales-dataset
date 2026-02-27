@@ -4,11 +4,11 @@ This project involves an in-depth analysis of a Walmart sales dataset of the sta
 # Dataset-Description
 | Column name      | Data-Type | Data-Type Saved in PostgreSQL  | Description |
 |----------------|---------------|----------------|-------------|
-| invoice id   | integer   | integer |  unique identifier for each tracnsaction.     |
+| invoice id   | integer   | integer |  unique identifier for each transaction.     |
 | Walmart branch      | text  | text         | unique identifier for each walmart branch.       |
 | city  |text  | text         | city in Texas where walmart branch is located.        |
 | category       | string  |text          | classification of products sold.       |
-| unit price | numueric | text | price of each individual product sold.|
+| unit price | numeric | text | price of each individual product sold.|
 | product quantity| integer | text | number of units of a specific product sold.|
 |purchase date| date without time zone| text| day of sale.|
 | purchase time| time without time zone| time without time zone| time of sale.|
@@ -29,6 +29,8 @@ TIME PERIOD COVERED: January 2019 - December 2019.
 1. Removed 1000+ duplicates.
 2. All missing values were replaced with "TBA"
 3. Confirmed all dates standard to DD/MM/YYYY.
+   note: 1. data was saved into postgreSQL as text to accomodate miising data being filled with "TBA"
+         2. To accomodate for numerical value being saved as text in postgreSQL, values are temporarily transformed into numerical values with the function "::numeric" or "::integer" when performing calcumations.
 
 
 # Exploratory Data Analysis
