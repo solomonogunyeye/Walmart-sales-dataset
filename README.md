@@ -51,7 +51,8 @@ This analysis answers three core questions:
 3. Cash with a 22.09% use case has an average transaction value of $142.77.
 
 # City Revenue Analysis
-1. Within 99 cities, the ten highest revenue earners make up 20% of total revenue.
+1. Within 99 cities, the ten highest revenue earners make up 20% of total revenue
+   (Weslaco, Waxahachie, Plano, San Antonio, Richardson, Port Arthur, Rockwall, Round Rock, Schertz, San Marcos).
 
 ## SQL Approach
 Key techniques used:
@@ -60,7 +61,7 @@ Key techniques used:
 - Aggregate functions (SUM, AVG, STDDEV) grouped by category and payment method
 - CTE structure for multi-step category performance analysis
 ```sql
--- SELECT
+ SELECT
   city, category,
   SUM(NULLIF(unit_price, 'TBA')::numeric * NULLIF(product_quantity, 'TBA')::numeric) AS total_revenue,
   RANK() OVER(
@@ -72,13 +73,14 @@ GROUP BY city, category
 ```
 
 # Dashboard preview
- https://github.com/solomonogunyeye/Walmart-sales-dataset/blob/main/images/Walmart%20Dataset%20Analysis%20Dashboard.png
+
+![Walmart Dashboard](images/Walmart%20Dataset%20Analysis%20Dashboard.png)
 
 # Key Findings
 1. Electronics category is high-revenue but high-volatility; requires dynamic inventory strategies.
 2. Groceries are steady and predictable; ideal for optimizing stock levels to reduce waste.
 3. Credit cards dominate high-value transactions; targeted promotions could increase digital wallet adoption.
-4. Customer loyalty data should be incorporated for targeted marketing.
+4. Cash users represent the highest-value segment at $142.77 avg transaction — without loyalty tracking, this segment is entirely invisible to CRM and retention systems.
 5. Average transaction value variance suggests promotions and discounts significantly influence purchase behavior.
 
 # Key Notes
