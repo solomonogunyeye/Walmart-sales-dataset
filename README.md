@@ -1,14 +1,25 @@
-# Walmart-sales-dataset
-This project involves an in-depth analysis of a Walmart sales dataset of the state of Texas sourced from Kaggle. The dataset contains transactional-level information spanning multiple stores in the state, product categories, and time periods. The primary goal is to uncover insights into sales trends, volatility, and category performance to guide strategic decision-making for inventory, pricing, marketing and future business decision making.
+##     Business Problemm
 
-DATASET SIZE: 10,051 rows, 11 columns.
-TIME PERIOD COVERED: January 2019 - December 2019.
+Walmart's Texas operations span 99 cities across multiple product categories.
+Without clear visibility into which categories drive revenue, which carry risk,
+and how payment behavior varies by transaction value — inventory, pricing, and
+marketing decisions remain guesswork.
 
-# Objectives
-1. Identify customer satisfaction across categories.
-2. Analyze category revenue, volatility and performance.
-3. Identify percentage contribution to revenue of each category.
-4. Identify profit generation with each City.
+This analysis answers three core questions:
+- Which product categories generate the most revenue and which carry the most risk?
+- How does payment method correlate with transaction value?
+- Which cities contribute disproportionately to total revenue?
+
+---
+
+## 📊 Dataset
+| Detail | Info |
+|---|---|
+| **Source** | Kaggle |
+| **Scope** | Walmart stores across Texas |
+| **Size** | 10,051 rows · 11 columns |
+| **Period** | January 2019 – December 2019 |
+| **Key columns** | Category, Unit Price, Quantity, City, Payment Method, Profit Margin, Rating |
 
 # Data cleaning and reprocessing
 1. Removed 1000+ duplicates.
