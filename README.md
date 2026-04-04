@@ -1,4 +1,4 @@
-##     Business Problemm
+##     Business Problem
 
 Walmart's Texas operations span 99 cities across multiple product categories.
 Without clear visibility into which categories drive revenue, which carry risk,
