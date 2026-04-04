@@ -12,7 +12,7 @@ This analysis answers three core questions:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 | Detail | Info |
 |---|---|
 | **Source** | Kaggle |
@@ -52,6 +52,27 @@ This analysis answers three core questions:
 
 # City Revenue Analysis
 1. Within 99 cities, the ten highest revenue earners make up 20% of total revenue.
+
+## SQL Approach
+Key techniques used:
+- Window functions for revenue ranking across cities and categories
+- `::numeric` casting for text-stored numeric fields
+- Aggregate functions (SUM, AVG, STDDEV) grouped by category and payment method
+- CTE structure for multi-step category performance analysis
+```sql
+-- SELECT
+  city, category,
+  SUM(NULLIF(unit_price, 'TBA')::numeric * NULLIF(product_quantity, 'TBA')::numeric) AS total_revenue,
+  RANK() OVER(
+  PARTITION BY city
+    ORDER BY SUM(NULLIF(unit_price, 'TBA')::numeric * NULLIF(product_quantity, 'TBA')::numeric) DESC
+  ) AS category_rank_in_city
+FROM walmart_sales
+GROUP BY city, category
+```
+
+# Dashboard preview
+ https://github.com/solomonogunyeye/Walmart-sales-dataset/blob/main/images/Walmart%20Dataset%20Analysis%20Dashboard.png
 
 # Key Findings
 1. Electronics category is high-revenue but high-volatility; requires dynamic inventory strategies.
