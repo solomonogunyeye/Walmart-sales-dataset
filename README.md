@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/Walmart Analysis Banner.png">
+</p>
+
 ##     Business Problem
 
 Walmart's Texas operations span 99 cities across multiple product categories.
